@@ -44,6 +44,7 @@ MYSQL_DATA_PATH=C:/Users/SeuUsuario/Downloads/ApiEmpresas/Data
    - Execute `docker compose up -d mysql` para iniciar o banco.
 
 3. **Atualize o banco**
+   - Aguarde até 1 minuto para o banco de dados iniciar completamente e execute:
    ```bash
    dotnet ef database update --project CadastroEmpresas.Api
    dotnet ef database update --project CadastroFuncionarios.Api
