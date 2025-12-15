@@ -1,10 +1,10 @@
-@CadastroEmpresas.Api_HostAddress = http://localhost:5258
+@Api_HostAddress = http://localhost:5001
 
 ### Listar empresas cadastradas
-GET {{CadastroEmpresas.Api_HostAddress}}/api/v1/empresas
+GET {{Api_HostAddress}}/api/v1/empresas
 
 ### Buscar empresa por id
-GET {{CadastroEmpresas.Api_HostAddress}}/api/v1/empresas/1
+GET {{Api_HostAddress}}/api/v1/empresas/1
 
 ### Criar empresa
 POST {{CadastroEmpresas.Api_HostAddress}}/api/v1/empresas
@@ -18,7 +18,7 @@ Content-Type: application/json
 }
 
 ### Atualizar empresa
-PUT {{CadastroEmpresas.Api_HostAddress}}/api/v1/empresas/1
+PUT {{Api_HostAddress}}/api/v1/empresas/1
 Content-Type: application/json
 
 {
@@ -29,4 +29,4 @@ Content-Type: application/json
 }
 
 ### Remover empresa
-DELETE {{CadastroEmpresas.Api_HostAddress}}/api/v1/empresas/1
+DELETE {{Api_HostAddress}}/api/v1/empresas/1

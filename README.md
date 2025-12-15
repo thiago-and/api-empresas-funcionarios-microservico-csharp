@@ -17,24 +17,30 @@ Ambas usam o provedor Pomelo para Entity Framework Core e foram geradas a partir
 - O projeto espera um MySQL 8.0 acessível em `localhost:3306` usando a base `empresas_db`.
 - Cada API carrega `../.env` e monta a connection string a partir de `MYSQL_HOST`, `MYSQL_PORT`, `MYSQL_USER` e `MYSQL_PASSWORD` (a base continua sendo `empresas_db`).
 - Defina valores diferentes no `.env` para ajustar host, porta e credenciais sem tocar no código.
-- Exemplo mínimo de `.env`:
+- Exemplo mínimo funcional de `.env`:
 
 ```
 MYSQL_HOST=localhost
 MYSQL_PORT=3306
+MYSQL_ROOT_PASSWORD=root
 MYSQL_USER=user
 MYSQL_PASSWORD=root
+MYSQL_DATA_PATH=./Data
+```
+- Crie uma pasta `Data` na raiz do projeto.
+- Mais exemplos do `MYSQL_DATA_PATH` para usar a pasta de outro local:
+```
 MYSQL_DATA_PATH=C:/Users/SeuUsuario/Downloads/ApiEmpresas/Data
 ```
-- O `docker-compose.yml` sobe um container MySQL e monta o volume apontado pela variável `MYSQL_DATA_PATH`. Certifique-se de que esta pasta existe.
 
 ## Execução
 1. **Pré-requisitos**
-   - .NET SDK 8.0.416 (veja `global.json`).
+   - .NET SDK 8.0.416.
    - Docker Desktop/Compose.
 
 2. **Suba o MySQL**
-   - Crie um arquivo `.env` na raiz com as variáveis do item anterior.
+   - Crie um arquivo `.env` na raiz com as variáveis do item anterior. Copie o exemplo acima.
+   - Crie uma pasta `Data` na raiz.
    - Execute `docker compose up -d mysql` para iniciar o banco.
 
 3. **Atualize o banco**
@@ -62,3 +68,4 @@ MYSQL_DATA_PATH=C:/Users/SeuUsuario/Downloads/ApiEmpresas/Data
 ## Testes rápidos
 - O Swagger de cada API abre automaticamente na raiz (`/swagger`) quando o serviço está em execução.
 - Os arquivos `EmpresasExemplos.json` e `FuncionariosExemplos.json` na raiz do projeto contêm exemplos de requisições.
+- O arquivo `CadastroEmpresas.Api.http` (e o correspondente `CadastroFuncionarios.Api.http`) reúne sugestões de chamadas HTTP rápidas para enviar via REST Client.

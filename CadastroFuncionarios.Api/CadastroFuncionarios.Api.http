@@ -1,14 +1,14 @@
-@CadastroFuncionarios.Api_HostAddress = http://localhost:5230
+@Api_HostAddress = http://localhost:5002
 
 
 ### Listar funcionários
-GET {{CadastroFuncionarios.Api_HostAddress}}/api/v1/funcionarios
+GET {{Api_HostAddress}}/api/v1/funcionarios
 
 ### Buscar funcionário por id
-GET {{CadastroFuncionarios.Api_HostAddress}}/api/v1/funcionarios/1
+GET {{Api_HostAddress}}/api/v1/funcionarios/1
 
 ### Criar funcionário
-POST {{CadastroFuncionarios.Api_HostAddress}}/api/v1/funcionarios
+POST {{Api_HostAddress}}/api/v1/funcionarios
 Content-Type: application/json
 
 {
@@ -19,7 +19,7 @@ Content-Type: application/json
 }
 
 ### Atualizar funcionário
-PUT {{CadastroFuncionarios.Api_HostAddress}}/api/v1/funcionarios/1
+PUT {{Api_HostAddress}}/api/v1/funcionarios/1
 Content-Type: application/json
 
 {
@@ -30,4 +30,4 @@ Content-Type: application/json
 }
 
 ### Remover funcionário
-DELETE {{CadastroFuncionarios.Api_HostAddress}}/api/v1/funcionarios/1
+DELETE {{Api_HostAddress}}/api/v1/funcionarios/1
