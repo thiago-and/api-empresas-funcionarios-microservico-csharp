@@ -1,0 +1,50 @@
+[
+  {
+    "nome": "TechCo Solutions",
+    "cnpj": "12345678000195",
+    "endereco": "Avenida Brasil, 400",
+    "telefone": "11999998888"
+  },
+  {
+    "nome": "InovaTech Sistemas",
+    "cnpj": "98765432000110",
+    "endereco": "Rua das Palmeiras, 120",
+    "telefone": "21988887777"
+  },
+  {
+    "nome": "Alpha Digital LTDA",
+    "cnpj": "45678912000155",
+    "endereco": "Alameda Santos, 980",
+    "telefone": "1133334444"
+  },
+  {
+    "nome": "NextGen Software",
+    "cnpj": "32165498000122",
+    "endereco": "Rua XV de Novembro, 75",
+    "telefone": "41977776666"
+  },
+  {
+    "nome": "BlueOcean Tecnologia",
+    "cnpj": "65432178000190",
+    "endereco": "Avenida Paulista, 1578",
+    "telefone": "1132221100"
+  },
+  {
+    "nome": "CloudWare Serviços Digitais",
+    "cnpj": "78945612000133",
+    "endereco": "Rua da Inovação, 250",
+    "telefone": "31966665555"
+  },
+  {
+    "nome": "DataPrime Analytics",
+    "cnpj": "15975348000166",
+    "endereco": "Avenida das Nações, 890",
+    "telefone": "61955554444"
+  },
+  {
+    "nome": "SmartCode Tecnologia",
+    "cnpj": "85296374000144",
+    "endereco": "Rua Projetada A, 45",
+    "telefone": "71944443333"
+  }
+]

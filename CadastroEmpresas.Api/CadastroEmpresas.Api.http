@@ -1,0 +1,32 @@
+@CadastroEmpresas.Api_HostAddress = http://localhost:5258
+
+### Listar empresas cadastradas
+GET {{CadastroEmpresas.Api_HostAddress}}/api/v1/empresas
+
+### Buscar empresa por id
+GET {{CadastroEmpresas.Api_HostAddress}}/api/v1/empresas/1
+
+### Criar empresa
+POST {{CadastroEmpresas.Api_HostAddress}}/api/v1/empresas
+Content-Type: application/json
+
+{
+	"nome": "techco",
+	"cnpj": "12345678000195",
+	"endereco": "Rua das Flores, 123",
+	"telefone": "11988887777"
+}
+
+### Atualizar empresa
+PUT {{CadastroEmpresas.Api_HostAddress}}/api/v1/empresas/1
+Content-Type: application/json
+
+{
+	"nome": "techco solutions",
+	"cnpj": "12345678000195",
+	"endereco": "Avenida Brasil, 400",
+	"telefone": "11999998888"
+}
+
+### Remover empresa
+DELETE {{CadastroEmpresas.Api_HostAddress}}/api/v1/empresas/1

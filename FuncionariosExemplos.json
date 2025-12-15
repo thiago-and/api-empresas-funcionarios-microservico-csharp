@@ -1,0 +1,50 @@
+[
+  {
+    "nome": "Marina Souza",
+    "cargo": "Desenvolvedora Backend",
+    "salario": 6500.00,
+    "dataAdmissao": "2025-02-01"
+  },
+  {
+    "nome": "Carlos Henrique Lima",
+    "cargo": "Desenvolvedor Frontend",
+    "salario": 5800.00,
+    "dataAdmissao": "2024-11-15"
+  },
+  {
+    "nome": "Ana Paula Ribeiro",
+    "cargo": "Analista de Sistemas",
+    "salario": 7200.00,
+    "dataAdmissao": "2023-08-10"
+  },
+  {
+    "nome": "João Victor Mendes",
+    "cargo": "Engenheiro de Software",
+    "salario": 9000.00,
+    "dataAdmissao": "2022-05-02"
+  },
+  {
+    "nome": "Fernanda Alves",
+    "cargo": "Product Owner",
+    "salario": 8500.00,
+    "dataAdmissao": "2024-01-22"
+  },
+  {
+    "nome": "Lucas Pereira",
+    "cargo": "QA Engineer",
+    "salario": 5200.00,
+    "dataAdmissao": "2025-03-05"
+  },
+  {
+    "nome": "Bruno Matos",
+    "cargo": "DevOps Engineer",
+    "salario": 8800.00,
+    "dataAdmissao": "2023-09-18"
+  },
+  {
+    "nome": "Juliana Costa",
+    "cargo": "UX Designer",
+    "salario": 6000.00,
+    "dataAdmissao": "2024-06-12"
+  }
+]
